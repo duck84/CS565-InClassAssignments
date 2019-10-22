@@ -3,31 +3,37 @@
 
 h1{
     color: #999999;
-    max-resolution: 0,0,36px,0;
+    font-size: 5em;
+    margin: 0,0,36px,0;
     font-family: Baskerville, Palatino, "Book Antiqua", serif;
 }
 
 #container{
     display: block;
+    margin: auto;
+    max-width: 840px;
+    margin-top: 25px
 }
 
 #unit-kitten-content{
-    display: block;
-    float: left;
-    width: 30%;
-    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;
+    height: 600px;
 }
 
 #pictures-of-cats{
+    float: right;
     display: block;
-    width: 30%;
-    height: 80%;
+    width: 420px;
+    height: 600px;
 }
 
 .links{
     background-color: #444;
     color: white;
     font-weight: bold;
+    width: 408px;
 }
 
 a{
@@ -35,5 +41,20 @@ a{
     font-family: monospace, sans-serif;
     font-weight: bold;
 }
+
+img{
+    float: left;
+    vertical-align: bottom;
+    margin: 4px;
+}
+
+img#image-4, img#image-5, img#image-6, img#image-7{
+    float: right;
+}
+
+p {
+width: 408px;
+}
+
 
 
