@@ -1,0 +1,39 @@
+
+
+
+h1{
+    color: #999999;
+    max-resolution: 0,0,36px,0;
+    font-family: Baskerville, Palatino, "Book Antiqua", serif;
+}
+
+#container{
+    display: block;
+}
+
+#unit-kitten-content{
+    display: block;
+    float: left;
+    width: 30%;
+    height: 80%;
+}
+
+#pictures-of-cats{
+    display: block;
+    width: 30%;
+    height: 80%;
+}
+
+.links{
+    background-color: #444;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    color: #c9e2b1;
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+}
+
+
