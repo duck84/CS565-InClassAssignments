@@ -6,22 +6,51 @@ body {
 }
 
 form {
+    display: block;
     margin: auto;
-    width: 30%;
+    width: 20%;
+    background-color: white;
+    padding: 1%;
+    border: 1px solid black ;
+    box-shadow: 4px 5px #808080 ;
 }
 
 input[type=text] {
-    float: right;
+    width: 95%;
+    height: 48px;
+    background-color: white;
 }
 
 input[type=text]:focus {
     background-color: lightgray;
 }
 
-h1 {
+h3 {
     text-align: center;
 }
 
-input[type=submit]:hover, input[type=reset]:hover {
+button:hover {
     background-color: lightgray;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    width: 25%;
+    height: 30px;
+    border: none;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+input[type=text].message {
+    height: 240px;
+    resize: both;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
 }
