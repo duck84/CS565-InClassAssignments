@@ -4,36 +4,37 @@
 h1{
     color: #999999;
     font-size: 5em;
-    margin: 0,0,36px,0;
+    margin: 0px 0px 36px 0px;
     font-family: Baskerville, Palatino, "Book Antiqua", serif;
 }
 
 #container{
-    display: block;
     margin: auto;
-    max-width: 840px;
+    max-width: 824px;
     margin-top: 25px
 }
 
 #unit-kitten-content{
     display: inline-block;
     vertical-align: top;
-    width: 420px;
-    height: 600px;
+    width: 408px;
 }
 
 #pictures-of-cats{
     float: right;
     display: block;
-    width: 420px;
-    height: 600px;
+    width: 408px;
+    margin: 0px 0px 8px 8xp;
 }
 
-.links{
+p.links{
     background-color: #444;
     color: white;
     font-weight: bold;
-    width: 408px;
+    width: 376px;
+    height: 45px;
+    margin: 8px 0px 8px 0px;
+    padding: 8px 16px 8px 16px;
 }
 
 a{
@@ -43,9 +44,30 @@ a{
 }
 
 img{
-    float: left;
     vertical-align: bottom;
-    margin: 4px;
+}
+
+img#image-1 {
+    float: left;
+    margin: 0px 8px 8px 0;
+}
+
+img#image-2 {
+    float: left;
+    margin: 0px 0px 8px 0px;
+}
+
+img#image-3 {
+    float:left;
+    margin: 0px 0px 8px 0px;
+}
+
+img#image-4, img#image-5 {
+    margin: 0px 0px 8px 8px;
+}
+
+img#image-6, img#image-7 {
+    margin: 0px 0px 8px 0px;
 }
 
 img#image-4, img#image-5, img#image-6, img#image-7{
@@ -54,6 +76,13 @@ img#image-4, img#image-5, img#image-6, img#image-7{
 
 p {
 width: 408px;
+font-size: 12px;
+line-height: 1.5;
+margin: 8px 0px 8px 0px;
+}
+
+footer {
+    display: block;
 }
 
 
