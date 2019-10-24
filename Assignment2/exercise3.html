@@ -9,52 +9,85 @@
     <link rel="stylesheet" type="text/css" href="exercise3.css">
 </head>
 
+
 <body>
-    <div id="container">
-        <div id="header">
-            <nav>
-                <a href="#family">family</a>
-                <a href="#background">background</a>
-                <a href="#work">work</a>
-            </nav>
-        </div>
-        <div id="photo-background" class="content">
-            <h1>Mike McGrath</h1>
-            <h3>Jack of All Trades</h3>
-        </div>
-        <div id="family" class="content">
-            <h2>FAMILY</h2>
-            <div id="pictures">
-                <img src="./Finn.jpeg" width="15%" height="15%">
-                <img src="./Luka.jpg" width="20%" height="20%" style="transform:rotate(90deg)">
-                <img src="./Mia.jpg" width="15%" height="15%" style="transform:rotate(90deg)">
+    <header>
+        <nav>
+            <a href="#background">Background</a>
+            <a href="#family">Family</a>
+            <a href="#work">Work</a>
+        <nav>
+    </header>
+    <div id="landing">
+        <h1 id="name">Mike McGrath</h1>
+        <h3 id="tagline">Tagline</h3>
+    </div>
+    <div id="background">
+        <h2>BACKGROUND</h2>
+        <div id="background-content">
+            <div id="pittsburgh" class="background.content">
+                <h5>Pittsburgh</h5>
+                <p></p>
+            </div>
+            <div id="swimming" class="background.content">
+                <h5>Swimming</h5>
+                <p>
+                    
+                </p>
+            </div>
+            <div id="school" class="background.content">
+                <h5>Schools</h5>
+                <p>
+                    <ul>
+                        <li>Boston University
+                            <ul>
+                                <li>B.A. in English</li>
+                                <li>B.A. in Philosophy</li>
+                                <li>Four Year Men's Swimming and Diving</li>
+                                <li>Captiain Senior Year</li>
+                            </ul>
+                        <li>Northwestern University
+                            <ul>
+                                <li>M.A. in Secondary Education</li>
+                                <li>voluntee Swim Coach</li>
+                                <li>Student Teacher: High School English</li>
+                            </ul>
+                        </li>
+                        <li>Portland State University
+                            <ul>
+                                <li>Accelerated Post-Bac Computer Science</li>
+                                <li>M.A. in Computer Science</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
             </div>
         </div>
-        <div id="background" class="content">
-            <h2>BACKGROUND</h2>
-        </div>
-        <div id="work">
-            <h2>WORK</h2>
+    </div>
+    <div id="family">
+        <h2>FAMILY</h2>
+        <div id="family-content">
+            <div id="lidija">
+                Lidija
+                <img src="./Family.jpg" alt="picture of the whole family">
+            </div>
+            <div id="mia">
+                Mia
+                <img src="./Mia.jpg" alt="a picture of a young girl" style="transform:rotate(90deg)">
+            </div>
+            <div id="luka">
+                Luka
+            <img src="./Luka.jpg" alt="a picture of a young boy" style="transform:rotate(90deg)">
+            </div>
+            <div id="finn">
+                Finn
+                <img src="./Finn.jpeg" alt="a picture of an infant">
+            </div>
         </div>
     </div>
-
-
-
-    <h2>Bio</h2>
-
-
-    <br>
-    <br>
-
-    <br>
-    <br>
-    <form id="contact form">
-        Contact <input type="email">
-        <input type="submit"><br><br>
-    </form>
-    <footer id="footer">
-        Copyright <span>&copy;</span> Mike McGrath 2019
-    </footer>
+    <div id="work">
+        <h2>WORK</h2>
+    </div>
 </body>
 
 </html>
