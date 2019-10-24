@@ -1,0 +1,29 @@
+
+#header {
+    width: auto;
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#photo-background{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9c/MtHoodFromOHSU.jpg);
+    width: auto;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
