@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 350px;
+    background-color: white;
+    padding: 1%;
+    border: 1px solid lightgrey ;
+}
+
+
+input[type=text]:focus {
+    background-color: lightgray;
+}
+
+h3 {
+    text-align: center;
+}
+
+#comment {
+    height: 150px;
+}
+
+
